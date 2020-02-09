@@ -37,3 +37,4 @@ Requirements:
 * C++ desktop development tools
 * MSVC C++ build tools (for architectures you need)
 * MSVC C++ Spectre-mitigated libs (for architectures you need)
+* QEMU
