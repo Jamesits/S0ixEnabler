@@ -13,7 +13,7 @@ EFI_STATUS efi_main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 #endif
 
 	Print(L"\n%HS0ixEnabler%N\n");
-	Print(L"\n%Hhttps://github.com/Jamesits/S0ixEnabler%N\n");
+	Print(L"%Hhttps://github.com/Jamesits/S0ixEnabler%N\n");
 	Print(L"Firmware %s Rev %d\n\n", SystemTable->FirmwareVendor, SystemTable->FirmwareRevision);
 
 	EFI_CONFIGURATION_TABLE* ect = SystemTable->ConfigurationTable;
@@ -81,7 +81,7 @@ EFI_STATUS efi_main(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 			if (!myStrnCmpA((unsigned char *)"FACP", (CHAR8*)(Entry->Signature), 4))
 			{
 				// check checksum
-				Print(L" %HChecking initial checksum...%N");
+				Print(L"  %HChecking initial checksum...%N");
 				if (AcpiChecksum((UINT8*)(Entry), Entry->Length))
 				{
 					Print(L"%HFAILED%N\n");
