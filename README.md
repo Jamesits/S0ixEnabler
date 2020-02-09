@@ -1,6 +1,13 @@
 # S0ixEnabler
 
-It enables S0 Low Power Idle mode (a.k.a. Modern Standby, including Connected Standby and Disconnected Standby) on your computer. 
+It enables S0 Low Power Idle mode (a.k.a. Modern Standby, including Connected Standby and Disconnected Standby) on your computer. It makes Windows experience on old MacBooks better by providing:
+
+* Near-instant screen on when you open the lid
+* The ability to play music when the lid is closed
+
+It have been tested on a MacBook Pro 13 inch (2013 late).
+
+> 这个东西不是是个大学生都能在几分钟里写出来一个的嘛——[Ben Wang](https://github.com/imbushuo)，2020-02-09
 
 ## WARNING
 
@@ -20,7 +27,7 @@ Other things that might happen depending on your hardware configuration:
 
 ## Requirements
 
-* UEFI firmware (some old EFI firmwares, e.g. MacBook Pro 13inch late-2013, might be supported as well)
+* UEFI firmware (some old EFI firmwares might be supported as well)
 
 ## Usage
 
