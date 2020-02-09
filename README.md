@@ -1,17 +1,20 @@
 # S0ixEnabler
 
-Force enable S0 Low Power Idle mode on your computer.
+It enables S0 Low Power Idle mode (a.k.a. Modern Standby, including Connected Standby and Disconnected Standby) on your computer. 
 
 ## WARNING
 
-S0ix might not be fully supported by your hardware, firmware or operating system. Enable S0ix might **overheat your device** and **cause fire**. The developer is not responsible for anything that happen to your computer.
+**This is not an end-user product. This is pure expereimental.**
+
+S0ix might not be fully supported by your hardware, firmware or operating system. Enabling S0ix might **overheat your device** and **cause fire** in extreme environments. The developer is not responsible for anything that happen to you or your computer.
 
 Other things that might happen depending on your hardware configuration:
 
-* Unable to recover from sleep
+* Unable to wake up from sleep
 * Mobile discrete GPU refuse to shutdown during sleep
-* Desktop discrete GPU refuse to turn on when waking up
-* Faster power drain
+* Desktop discrete GPU refuse to turn on after wake up
+* USB devices unavailable after wake up
+* Faster power drain during sleep
 * Fan not stopping during sleep
 * Fan not spinning after wake up
 
@@ -38,3 +41,5 @@ Requirements:
 * MSVC C++ build tools (for architectures you need)
 * MSVC C++ Spectre-mitigated libs (for architectures you need)
 * QEMU
+
+Open `S0ixEnabler.sln` in Visual Studio and click Build Solution. 
