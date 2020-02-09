@@ -1,0 +1,7 @@
+[submodule "gnu-efi"]
+	path = gnu-efi
+	url = https://git.code.sf.net/p/gnu-efi/code
+	ignore = dirty
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/tianocore/edk2
