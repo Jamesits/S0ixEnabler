@@ -1,9 +1,10 @@
-﻿#include <efi.h>
-#include <efilib.h>
-
+﻿// ACPI table definition from https://github.com/tianocore/edk2
 #pragma once
 #ifndef __FADT_H__
 #define __FADT_H__
+
+#include <efi.h>
+#include <efilib.h>
 
 // edk2/MdePkg/Include/IndustryStandard/Acpi10.h 
 // The common ACPI description table header.  This structure prefaces most ACPI tables.
