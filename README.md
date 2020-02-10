@@ -11,7 +11,7 @@ It have been tested on a MacBook Pro 13 inch (2013 late).
 
 ## WARNING
 
-**This is not an end-user product. This is pure expereimental.**
+**This is not an end-user product. This is pure experimental.**
 
 S0ix might not be fully supported by your hardware, firmware or operating system. Enabling S0ix might **overheat your device** and **cause fire** in extreme environments. The developer is not responsible for anything that happen to you or your computer.
 
