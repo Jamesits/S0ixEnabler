@@ -17,6 +17,7 @@ S0ix might not be fully supported by your hardware, firmware or operating system
 
 Other things that might happen depending on your hardware configuration:
 
+* Windows fail to boot
 * Unable to wake up from sleep
 * Mobile discrete GPU refuse to shutdown during sleep
 * Desktop discrete GPU refuse to turn on after wake up
