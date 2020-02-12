@@ -31,7 +31,7 @@ Other things that might happen depending on your hardware configuration:
 * A UEFI firmware (some old EFI firmwares might be supported as well)
 * A CPU supporting S0ix (Intel Haswell/4th gen core or later, AMD Picasso/Ryzen 3 mobile or later)
 * Firmware has S0ix disabled (otherwise you don't need this; use `powercfg /a` on Windows to check)
-* If you have rotational storage connected, enable [IgnoreCsComplianceCheck](https://docs.microsoft.com/en-us/windows-hardware/customize/power-settings/power-controls-ignorecscompliancecheck) for Connected Standby
+* If you have rotational storage connected, enable [IgnoreCsComplianceCheck](https://docs.microsoft.com/en-us/windows-hardware/customize/power-settings/power-controls-ignorecscompliancecheck) for Connected Standby (otherwise Disconnected Standby only)
 
 ## Usage
 
